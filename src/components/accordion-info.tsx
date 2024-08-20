@@ -43,7 +43,7 @@ const AccordionInfo: React.FC<AccordionInfoProps> = ({ className }) => {
         key={activeIndex}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1.2 }}
+        transition={{ duration: 2 }}
       >
         <Image
           src={ACCORDION_DATA[activeIndex].src}
